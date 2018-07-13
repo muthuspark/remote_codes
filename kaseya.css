@@ -5,7 +5,7 @@ body {
 body iframe[src^="https://www.youtube.com/embed"] { 
   height: 400px !important;
 }
-link[href*="kaseya.css"] + div > div > div{
+#end + link[href*="kaseya.css"] + div > div > div, #end + iframe + link[href*="kaseya.css"] + div > div > div{{
  height: 430px !important;
 }
 

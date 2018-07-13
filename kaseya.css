@@ -7,7 +7,7 @@ body {
   height: 400px !important;
 }
 #end + link[href*="kaseya.css"] + div > div > div, #end + iframe + link[href*="kaseya.css"] + div > div > div{
- height: 430px !important;
+ height: inherit !important;
 }
 
 /*

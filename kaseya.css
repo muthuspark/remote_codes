@@ -2,7 +2,8 @@
 body {
  background: #fff; 
 }
-body iframe[src^="https://www.youtube.com/embed"] { 
+#end + link[href*="kaseya.css"] + div > div > div iframe[src^="https://www.youtube.com/embed"], 
+#end + iframe + link[href*="kaseya.css"] + div > div > div iframe[src^="https://www.youtube.com/embed"] { 
   height: 400px !important;
 }
 #end + link[href*="kaseya.css"] + div > div > div, #end + iframe + link[href*="kaseya.css"] + div > div > div{

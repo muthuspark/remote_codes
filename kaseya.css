@@ -2,8 +2,8 @@
 body {
  background: #fff; 
 }
-#end + link[href*="kaseya.css"] + div > div > div iframe[src^="https://www.youtube.com/embed"], 
-#end + iframe + link[href*="kaseya.css"] + div > div > div iframe[src^="https://www.youtube.com/embed"] { 
+#end + link[href*="kaseya.css"] + div > div > div iframe[src^="https://player.vimeo.com/video"], 
+#end + iframe + link[href*="kaseya.css"] + div > div > div iframe[src^="https://player.vimeo.com/video"] { 
   height: 400px !important;
 }
 #end + link[href*="kaseya.css"] + div > div > div, #end + iframe + link[href*="kaseya.css"] + div > div > div{
